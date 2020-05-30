@@ -1,5 +1,22 @@
 This is new file a.txt
-in which we publish our data un guthub server after doing 2 3 change in our file 
+using command prompt
+in which we publish our data un guthub server(REMOTE) after doing 2 3 change in our file 
 
 in this we have to perform some git command to add the into server
 so that it will all the change which is done so far
+
+git remote add <name> <url>
+name is equal to repositary name, just like origin which is the default name of master branch
+url of the server in which it is store
+by doing this, our local repositary will connect to github server,but it is not push
+
+git remote -v 
+to know the connection
+
+git remote add -u <name><branch.name>
+name which we select above
+and branch name, either it is master or any other
+so this will update our remote libary, what changes we made earlier
+
+other step are the previous one that we do to update our local and remote repositary
+
