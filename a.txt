@@ -5,6 +5,9 @@ in which we publish our data un guthub server(REMOTE) after doing 2 3 change in 
 in this we have to perform some git command to add the into server
 so that it will all the change which is done so far
 
+before all this we have to make a empty repositary in remote where this will saved,but have to make sure that it will 
+not inilize like before because we have already a local repositary
+
 git remote add <name> <url>
 name is equal to repositary name, just like origin which is the default name of master branch
 url of the server in which it is store
@@ -17,6 +20,8 @@ git remote add -u <name><branch.name>
 name which we select above
 and branch name, either it is master or any other
 so this will update our remote libary, what changes we made earlier
+
+
 
 other step are the previous one that we do to update our local and remote repositary
 
