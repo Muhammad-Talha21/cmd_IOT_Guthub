@@ -1,2 +1,5 @@
 This is new file a.txt
 in which we publish our data un guthub server after doing 2 3 change in our file 
+
+in this we have to perform some git command to add the into server
+so that it will all the change which is done so far
